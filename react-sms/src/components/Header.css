@@ -1,0 +1,71 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding: 10px 45px;
+}
+
+.header .logo {
+	display: flex;
+	align-items: center;
+	padding: 12px 32px;
+}
+
+.header .logo h2 {
+	padding: 0 10px 0 0;
+	font-size: 50px;
+	color: #fff;
+}
+
+.header .logo p {
+	font-size: 14px;
+	padding: 0 8px;
+	color: #fff;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.navbar a{
+	text-decoration: none;
+	padding: 5px 25px;
+	margin: 5px;
+	 border-radius: 20px;
+}
+
+.navbar .signup{
+    background-color: #0f53f7;
+    color: #fff;
+}
+
+
+.navbar .signin{
+	background-color: #fff;
+	color: #0f53f7;
+}
+
+
+.signin {
+    background-color: #3498db; 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin:hover {
+    background-color: #2980b9; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

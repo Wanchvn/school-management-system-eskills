@@ -1,0 +1,76 @@
+.mainpagecontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #09327F;
+    color: #fff;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.header .school-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .school-info i {
+    margin-right: 10px;
+}
+
+.flexpage {
+    display: flex;
+    flex: 1; /* Fills remaining space below header */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100%; /* Stretches to match parent's height */
+    overflow-y: auto; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #09327F;
+    height: 100%; /* Ensures full height of parent */
+    overflow: auto; /* Prevents layout distortion with long content */
+}
